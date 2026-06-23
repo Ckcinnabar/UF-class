@@ -1,0 +1,42 @@
+# ===== Large data / model files (GitHub 100MB limit) =====
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.bin
+*.safetensors
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Checkpoint / weight directories
+**/checkpoints/
+**/checkpoint/
+**/weights/
+**/runs/
+**/wandb/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
